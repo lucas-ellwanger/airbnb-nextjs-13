@@ -119,6 +119,7 @@ const Categories = () => {
           items-center
           justify-between
           overflow-x-auto
+          scrollbar-none
         '
       >
         {categories.map((item) => (
