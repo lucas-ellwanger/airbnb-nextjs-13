@@ -72,6 +72,11 @@ export const categories = [
     description: 'This property has camping activities!',
   },
   {
+    label: 'Arctic',
+    icon: BsSnow,
+    description: 'This property is in the Arctic!',
+  },
+  {
     label: 'Cave',
     icon: GiCaveEntrance,
     description: 'This property is in a cave!',
