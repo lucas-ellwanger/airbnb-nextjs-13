@@ -55,7 +55,7 @@ const ListingInfo: React.FC<ListingInfoProps> = ({
           gap-2
           '
         >
-          <div>Hosted by {user?.name}</div>
+          <div>Hosted by {user?.name?.split(' ')[0]}</div>
           <Avatar src={user?.image} />
         </div>
         <div
